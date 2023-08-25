@@ -1,5 +1,5 @@
-import './globals.css'
 import { Inter } from 'next/font/google'
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +11,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <footer class="footer_footer__wxdzN" style={{textAlign: 'center'}}>
+        <a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">浙ICP备17015491号-6</a>
+        <a href="/docs/agreement_user">服务协议</a>
+        <a href="/docs/agreement_private">隐私协议</a>
+        <a href="/docs/rule">社区规则</a>
+      </footer>
+      </body>
+
     </html>
   )
 }
