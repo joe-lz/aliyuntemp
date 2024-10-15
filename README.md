@@ -32,3 +32,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+# 安装nvm、nodejs 
+https://help.aliyun.com/zh/ecs/use-cases/deploy-a-node-js-environment-on-a-centos-7-instance
+
+解决nvm ls-remote 列表只出现iojs版本
+https://blog.csdn.net/Guzarish/article/details/141372073
+
+nvm install v20.18.0
+
+default.conf
+server {
+  listen 80;
+  server_name todokit.xyz aliyun.todokit.xyz;
+  return 301 https://omb.todokit.xyz;
+}
+
+cat dokki.fans.conf
+server{
+  listen 80;
+  server_name  dokki.fans;
+
+  location / {
+    proxy_pass http://localhost:3000;
+  }
+}
