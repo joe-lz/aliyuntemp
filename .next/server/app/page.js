@@ -212,7 +212,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 3459:
+/***/ 6854:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -246,7 +246,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7170)), "/Users/dong/Documents/GitHub/zhiyou-site/src/app/page.js"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7170)), "/Users/cbd/Documents/GitHub/aliyuntemp/src/app/page.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
     apple: [],
@@ -257,7 +257,7 @@ const tree = {
         }]
       },
         {
-        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2911)), "/Users/dong/Documents/GitHub/zhiyou-site/src/app/layout.js"],
+        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2911)), "/Users/cbd/Documents/GitHub/aliyuntemp/src/app/layout.js"],
 'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5493, 23)), "next/dist/client/components/not-found-error"],
         metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
@@ -269,7 +269,7 @@ const tree = {
       }
       ]
       }.children;
-const pages = ["/Users/dong/Documents/GitHub/zhiyou-site/src/app/page.js"];
+const pages = ["/Users/cbd/Documents/GitHub/aliyuntemp/src/app/page.js"];
 
 // @ts-expect-error - replaced by webpack/turbopack loader
 
@@ -301,26 +301,26 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 8575:
+/***/ 2716:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
 
 /***/ }),
 
-/***/ 1788:
+/***/ 4649:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23))
 
 /***/ }),
 
-/***/ 2461:
+/***/ 9229:
 /***/ (() => {
 
 
@@ -378,9 +378,6 @@ function RootLayout({ children }) {
                 children,
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("footer", {
                     class: "footer_footer__wxdzN",
-                    style: {
-                        textAlign: "center"
-                    },
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                             target: "_blank",
@@ -600,7 +597,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,84], () => (__webpack_exec__(3459)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,84], () => (__webpack_exec__(6854)));
 module.exports = __webpack_exports__;
 
 })();
