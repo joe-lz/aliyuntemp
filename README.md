@@ -59,3 +59,9 @@ server{
     proxy_pass http://localhost:3000;
   }
 }
+
+npm install pm2 -g
+在Linux阿里云服务器上部署Nextjs项目
+https://juejin.cn/post/6993205190471974925
+在自己服务器上部署nextjs项目
+https://juejin.cn/post/7173498085958483998
